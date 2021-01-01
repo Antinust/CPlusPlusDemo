@@ -8,14 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		CF25CADE259EC696004F321B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF25CADD259EC696004F321B /* AppDelegate.m */; };
-		CF25CAE1259EC696004F321B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF25CAE0259EC696004F321B /* ViewController.m */; };
+		CF25CAE1259EC696004F321B /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF25CAE0259EC696004F321B /* ViewController.mm */; };
 		CF25CAE4259EC696004F321B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF25CAE2259EC696004F321B /* Main.storyboard */; };
 		CF25CAE7259EC696004F321B /* CPlusPlusDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF25CAE5259EC696004F321B /* CPlusPlusDemo.xcdatamodeld */; };
 		CF25CAE9259EC698004F321B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF25CAE8259EC698004F321B /* Assets.xcassets */; };
 		CF25CAEC259EC698004F321B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF25CAEA259EC698004F321B /* LaunchScreen.storyboard */; };
 		CF25CAEF259EC698004F321B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF25CAEE259EC698004F321B /* main.m */; };
-		CF25CAF9259EC698004F321B /* CPlusPlusDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF25CAF8259EC698004F321B /* CPlusPlusDemoTests.m */; };
 		CF25CB04259EC698004F321B /* CPlusPlusDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF25CB03259EC698004F321B /* CPlusPlusDemoUITests.m */; };
+		CF25CB14259EC790004F321B /* CPlusPlusDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF25CB12259EC790004F321B /* CPlusPlusDemo.cpp */; };
+		CF25CB15259EC790004F321B /* CPlusPlusDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF25CB12259EC790004F321B /* CPlusPlusDemo.cpp */; };
+		CF25CB16259EC790004F321B /* CPlusPlusDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF25CB12259EC790004F321B /* CPlusPlusDemo.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +42,7 @@
 		CF25CADC259EC696004F321B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CF25CADD259EC696004F321B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CF25CADF259EC696004F321B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CF25CAE0259EC696004F321B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF25CAE0259EC696004F321B /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		CF25CAE3259EC696004F321B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF25CAE6259EC696004F321B /* CPlusPlusDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CPlusPlusDemo.xcdatamodel; sourceTree = "<group>"; };
 		CF25CAE8259EC698004F321B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -48,11 +50,12 @@
 		CF25CAED259EC698004F321B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF25CAEE259EC698004F321B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CF25CAF4259EC698004F321B /* CPlusPlusDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPlusPlusDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF25CAF8259EC698004F321B /* CPlusPlusDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPlusPlusDemoTests.m; sourceTree = "<group>"; };
 		CF25CAFA259EC698004F321B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF25CAFF259EC698004F321B /* CPlusPlusDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPlusPlusDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF25CB03259EC698004F321B /* CPlusPlusDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPlusPlusDemoUITests.m; sourceTree = "<group>"; };
 		CF25CB05259EC698004F321B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF25CB12259EC790004F321B /* CPlusPlusDemo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPlusPlusDemo.cpp; sourceTree = "<group>"; };
+		CF25CB13259EC790004F321B /* CPlusPlusDemo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CPlusPlusDemo.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +106,11 @@
 		CF25CADB259EC696004F321B /* CPlusPlusDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CF25CB11259EC746004F321B /* CPlusPlus */,
 				CF25CADC259EC696004F321B /* AppDelegate.h */,
 				CF25CADD259EC696004F321B /* AppDelegate.m */,
 				CF25CADF259EC696004F321B /* ViewController.h */,
-				CF25CAE0259EC696004F321B /* ViewController.m */,
+				CF25CAE0259EC696004F321B /* ViewController.mm */,
 				CF25CAE2259EC696004F321B /* Main.storyboard */,
 				CF25CAE8259EC698004F321B /* Assets.xcassets */,
 				CF25CAEA259EC698004F321B /* LaunchScreen.storyboard */,
@@ -120,7 +124,6 @@
 		CF25CAF7259EC698004F321B /* CPlusPlusDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				CF25CAF8259EC698004F321B /* CPlusPlusDemoTests.m */,
 				CF25CAFA259EC698004F321B /* Info.plist */,
 			);
 			path = CPlusPlusDemoTests;
@@ -133,6 +136,15 @@
 				CF25CB05259EC698004F321B /* Info.plist */,
 			);
 			path = CPlusPlusDemoUITests;
+			sourceTree = "<group>";
+		};
+		CF25CB11259EC746004F321B /* CPlusPlus */ = {
+			isa = PBXGroup;
+			children = (
+				CF25CB12259EC790004F321B /* CPlusPlusDemo.cpp */,
+				CF25CB13259EC790004F321B /* CPlusPlusDemo.hpp */,
+			);
+			path = CPlusPlus;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +277,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF25CAE1259EC696004F321B /* ViewController.m in Sources */,
+				CF25CB14259EC790004F321B /* CPlusPlusDemo.cpp in Sources */,
+				CF25CAE1259EC696004F321B /* ViewController.mm in Sources */,
 				CF25CADE259EC696004F321B /* AppDelegate.m in Sources */,
 				CF25CAEF259EC698004F321B /* main.m in Sources */,
 				CF25CAE7259EC696004F321B /* CPlusPlusDemo.xcdatamodeld in Sources */,
@@ -276,7 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF25CAF9259EC698004F321B /* CPlusPlusDemoTests.m in Sources */,
+				CF25CB15259EC790004F321B /* CPlusPlusDemo.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF25CB16259EC790004F321B /* CPlusPlusDemo.cpp in Sources */,
 				CF25CB04259EC698004F321B /* CPlusPlusDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +453,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CPlusPlusDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,6 +470,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CPlusPlusDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
