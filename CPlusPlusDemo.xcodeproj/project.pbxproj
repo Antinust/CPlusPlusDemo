@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF25CADE259EC696004F321B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF25CADD259EC696004F321B /* AppDelegate.m */; };
+		CF25CAE1259EC696004F321B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF25CAE0259EC696004F321B /* ViewController.m */; };
+		CF25CAE4259EC696004F321B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF25CAE2259EC696004F321B /* Main.storyboard */; };
+		CF25CAE7259EC696004F321B /* CPlusPlusDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF25CAE5259EC696004F321B /* CPlusPlusDemo.xcdatamodeld */; };
+		CF25CAE9259EC698004F321B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF25CAE8259EC698004F321B /* Assets.xcassets */; };
+		CF25CAEC259EC698004F321B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF25CAEA259EC698004F321B /* LaunchScreen.storyboard */; };
+		CF25CAEF259EC698004F321B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF25CAEE259EC698004F321B /* main.m */; };
+		CF25CAF9259EC698004F321B /* CPlusPlusDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF25CAF8259EC698004F321B /* CPlusPlusDemoTests.m */; };
+		CF25CB04259EC698004F321B /* CPlusPlusDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF25CB03259EC698004F321B /* CPlusPlusDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF25CAF5259EC698004F321B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF25CAD1259EC696004F321B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF25CAD8259EC696004F321B;
+			remoteInfo = CPlusPlusDemo;
+		};
+		CF25CB00259EC698004F321B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF25CAD1259EC696004F321B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF25CAD8259EC696004F321B;
+			remoteInfo = CPlusPlusDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF25CAD9259EC696004F321B /* CPlusPlusDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPlusPlusDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF25CADC259EC696004F321B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF25CADD259EC696004F321B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF25CADF259EC696004F321B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF25CAE0259EC696004F321B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF25CAE3259EC696004F321B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF25CAE6259EC696004F321B /* CPlusPlusDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CPlusPlusDemo.xcdatamodel; sourceTree = "<group>"; };
+		CF25CAE8259EC698004F321B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF25CAEB259EC698004F321B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF25CAED259EC698004F321B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF25CAEE259EC698004F321B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF25CAF4259EC698004F321B /* CPlusPlusDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPlusPlusDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF25CAF8259EC698004F321B /* CPlusPlusDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPlusPlusDemoTests.m; sourceTree = "<group>"; };
+		CF25CAFA259EC698004F321B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF25CAFF259EC698004F321B /* CPlusPlusDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPlusPlusDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF25CB03259EC698004F321B /* CPlusPlusDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPlusPlusDemoUITests.m; sourceTree = "<group>"; };
+		CF25CB05259EC698004F321B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF25CAD6259EC696004F321B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF25CAF1259EC698004F321B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF25CAFC259EC698004F321B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF25CAD0259EC696004F321B = {
+			isa = PBXGroup;
+			children = (
+				CF25CADB259EC696004F321B /* CPlusPlusDemo */,
+				CF25CAF7259EC698004F321B /* CPlusPlusDemoTests */,
+				CF25CB02259EC698004F321B /* CPlusPlusDemoUITests */,
+				CF25CADA259EC696004F321B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF25CADA259EC696004F321B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF25CAD9259EC696004F321B /* CPlusPlusDemo.app */,
+				CF25CAF4259EC698004F321B /* CPlusPlusDemoTests.xctest */,
+				CF25CAFF259EC698004F321B /* CPlusPlusDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF25CADB259EC696004F321B /* CPlusPlusDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CF25CADC259EC696004F321B /* AppDelegate.h */,
+				CF25CADD259EC696004F321B /* AppDelegate.m */,
+				CF25CADF259EC696004F321B /* ViewController.h */,
+				CF25CAE0259EC696004F321B /* ViewController.m */,
+				CF25CAE2259EC696004F321B /* Main.storyboard */,
+				CF25CAE8259EC698004F321B /* Assets.xcassets */,
+				CF25CAEA259EC698004F321B /* LaunchScreen.storyboard */,
+				CF25CAED259EC698004F321B /* Info.plist */,
+				CF25CAEE259EC698004F321B /* main.m */,
+				CF25CAE5259EC696004F321B /* CPlusPlusDemo.xcdatamodeld */,
+			);
+			path = CPlusPlusDemo;
+			sourceTree = "<group>";
+		};
+		CF25CAF7259EC698004F321B /* CPlusPlusDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF25CAF8259EC698004F321B /* CPlusPlusDemoTests.m */,
+				CF25CAFA259EC698004F321B /* Info.plist */,
+			);
+			path = CPlusPlusDemoTests;
+			sourceTree = "<group>";
+		};
+		CF25CB02259EC698004F321B /* CPlusPlusDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF25CB03259EC698004F321B /* CPlusPlusDemoUITests.m */,
+				CF25CB05259EC698004F321B /* Info.plist */,
+			);
+			path = CPlusPlusDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF25CAD8259EC696004F321B /* CPlusPlusDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF25CB08259EC698004F321B /* Build configuration list for PBXNativeTarget "CPlusPlusDemo" */;
+			buildPhases = (
+				CF25CAD5259EC696004F321B /* Sources */,
+				CF25CAD6259EC696004F321B /* Frameworks */,
+				CF25CAD7259EC696004F321B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CPlusPlusDemo;
+			productName = CPlusPlusDemo;
+			productReference = CF25CAD9259EC696004F321B /* CPlusPlusDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF25CAF3259EC698004F321B /* CPlusPlusDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF25CB0B259EC698004F321B /* Build configuration list for PBXNativeTarget "CPlusPlusDemoTests" */;
+			buildPhases = (
+				CF25CAF0259EC698004F321B /* Sources */,
+				CF25CAF1259EC698004F321B /* Frameworks */,
+				CF25CAF2259EC698004F321B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF25CAF6259EC698004F321B /* PBXTargetDependency */,
+			);
+			name = CPlusPlusDemoTests;
+			productName = CPlusPlusDemoTests;
+			productReference = CF25CAF4259EC698004F321B /* CPlusPlusDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF25CAFE259EC698004F321B /* CPlusPlusDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF25CB0E259EC698004F321B /* Build configuration list for PBXNativeTarget "CPlusPlusDemoUITests" */;
+			buildPhases = (
+				CF25CAFB259EC698004F321B /* Sources */,
+				CF25CAFC259EC698004F321B /* Frameworks */,
+				CF25CAFD259EC698004F321B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF25CB01259EC698004F321B /* PBXTargetDependency */,
+			);
+			name = CPlusPlusDemoUITests;
+			productName = CPlusPlusDemoUITests;
+			productReference = CF25CAFF259EC698004F321B /* CPlusPlusDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF25CAD1259EC696004F321B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = antinust;
+				TargetAttributes = {
+					CF25CAD8259EC696004F321B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CF25CAF3259EC698004F321B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CF25CAD8259EC696004F321B;
+					};
+					CF25CAFE259EC698004F321B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CF25CAD8259EC696004F321B;
+					};
+				};
+			};
+			buildConfigurationList = CF25CAD4259EC696004F321B /* Build configuration list for PBXProject "CPlusPlusDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF25CAD0259EC696004F321B;
+			productRefGroup = CF25CADA259EC696004F321B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF25CAD8259EC696004F321B /* CPlusPlusDemo */,
+				CF25CAF3259EC698004F321B /* CPlusPlusDemoTests */,
+				CF25CAFE259EC698004F321B /* CPlusPlusDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF25CAD7259EC696004F321B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF25CAEC259EC698004F321B /* LaunchScreen.storyboard in Resources */,
+				CF25CAE9259EC698004F321B /* Assets.xcassets in Resources */,
+				CF25CAE4259EC696004F321B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF25CAF2259EC698004F321B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF25CAFD259EC698004F321B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF25CAD5259EC696004F321B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF25CAE1259EC696004F321B /* ViewController.m in Sources */,
+				CF25CADE259EC696004F321B /* AppDelegate.m in Sources */,
+				CF25CAEF259EC698004F321B /* main.m in Sources */,
+				CF25CAE7259EC696004F321B /* CPlusPlusDemo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF25CAF0259EC698004F321B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF25CAF9259EC698004F321B /* CPlusPlusDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF25CAFB259EC698004F321B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF25CB04259EC698004F321B /* CPlusPlusDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF25CAF6259EC698004F321B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF25CAD8259EC696004F321B /* CPlusPlusDemo */;
+			targetProxy = CF25CAF5259EC698004F321B /* PBXContainerItemProxy */;
+		};
+		CF25CB01259EC698004F321B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF25CAD8259EC696004F321B /* CPlusPlusDemo */;
+			targetProxy = CF25CB00259EC698004F321B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF25CAE2259EC696004F321B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF25CAE3259EC696004F321B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF25CAEA259EC698004F321B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF25CAEB259EC698004F321B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF25CB06259EC698004F321B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF25CB07259EC698004F321B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF25CB09259EC698004F321B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CPlusPlusDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.antinust.CPlusPlusDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF25CB0A259EC698004F321B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CPlusPlusDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.antinust.CPlusPlusDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF25CB0C259EC698004F321B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CPlusPlusDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.antinust.CPlusPlusDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CPlusPlusDemo.app/CPlusPlusDemo";
+			};
+			name = Debug;
+		};
+		CF25CB0D259EC698004F321B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CPlusPlusDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.antinust.CPlusPlusDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CPlusPlusDemo.app/CPlusPlusDemo";
+			};
+			name = Release;
+		};
+		CF25CB0F259EC698004F321B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CPlusPlusDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.antinust.CPlusPlusDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CPlusPlusDemo;
+			};
+			name = Debug;
+		};
+		CF25CB10259EC698004F321B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CPlusPlusDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.antinust.CPlusPlusDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CPlusPlusDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF25CAD4259EC696004F321B /* Build configuration list for PBXProject "CPlusPlusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF25CB06259EC698004F321B /* Debug */,
+				CF25CB07259EC698004F321B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF25CB08259EC698004F321B /* Build configuration list for PBXNativeTarget "CPlusPlusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF25CB09259EC698004F321B /* Debug */,
+				CF25CB0A259EC698004F321B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF25CB0B259EC698004F321B /* Build configuration list for PBXNativeTarget "CPlusPlusDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF25CB0C259EC698004F321B /* Debug */,
+				CF25CB0D259EC698004F321B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF25CB0E259EC698004F321B /* Build configuration list for PBXNativeTarget "CPlusPlusDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF25CB0F259EC698004F321B /* Debug */,
+				CF25CB10259EC698004F321B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF25CAE5259EC696004F321B /* CPlusPlusDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF25CAE6259EC696004F321B /* CPlusPlusDemo.xcdatamodel */,
+			);
+			currentVersion = CF25CAE6259EC696004F321B /* CPlusPlusDemo.xcdatamodel */;
+			path = CPlusPlusDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF25CAD1259EC696004F321B /* Project object */;
+}
